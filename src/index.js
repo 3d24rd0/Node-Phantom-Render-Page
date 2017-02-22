@@ -17,6 +17,7 @@ driver.create({
                         return console.log(err);
                     }
                     console.log("The file was saved!");
+                    browser.exit();
                 });
             });
         });
